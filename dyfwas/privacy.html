@@ -91,15 +91,14 @@ code{overflow-wrap:anywhere}
 <p><strong>Your control:</strong></p>
 <ul>
 <li><em>Export my data</em> saves a copy of the statistics linked to your identifier as a file.</li>
-<li><em>Delete my data</em> erases them from our service and turns sharing off.</li>
-<li>Turning sharing off stops all sending immediately, empties the queue of events not yet sent, and destroys the identifier on your PC. Statistics already received are then no longer linked to anything on your PC, and are deleted at the end of their 12-month retention. To erase them right away, use <em>Delete my data</em> before turning sharing off, or write to us (§ 1) with the details of a bug report you sent, if any.</li>
+<li>Turning sharing off (or <em>Delete my data</em>, which does the same) stops all sending immediately, empties the queue of events not yet sent, and <strong>deletes the statistics already received</strong> from our service. If your PC is offline at that moment, the deletion request is kept on your PC and sent automatically as soon as you are online again. If you accept again later, a new identifier is created.</li>
 </ul>
 
 <h2 id="bugs">5. Bug reports</h2>
 <p>The bug report window (F8 key) sends a report <strong>only when you click Send</strong>. A report contains:</p>
 <ul>
 <li>your description and a screenshot (you can untick the screenshot);</li>
-<li>the game's log file for the session, which may contain file paths on your PC (these can include your Windows user name);</li>
+<li>the game's log file for the session. Before sending, the game replaces your Windows user name with <code>&lt;user&gt;</code> wherever it appears (for example in file paths);</li>
 <li>technical information: game version, operating system, processor, graphics card, memory, display, language, time zone, input devices, performance;</li>
 <li>the game state: scene, mode, online role;</li>
 <li>your Steam ID and Steam name, so we can find related reports and, if needed, recognise you if you contact us;</li>
@@ -138,7 +137,7 @@ code{overflow-wrap:anywhere}
 
 <h2 id="delete">10. Deleting your data</h2>
 <ul>
-<li><strong>Statistics:</strong> Options → Gameplay → Privacy → <em>Delete my data</em> (see § 4).</li>
+<li><strong>Statistics:</strong> Options → Gameplay → Privacy → turn sharing off or <em>Delete my data</em> (see § 4).</li>
 <li><strong>Data on your PC:</strong> uninstall the game and delete the folder <code>%USERPROFILE%\AppData\LocalLow\Pouglin\DYFWAS - Destroy Your Friends With Awesome Stuff</code>. Do not delete the whole <code>Pouglin</code> folder if you play other games by Pouglin.</li>
 <li><strong>Bug reports and e-mails:</strong> write to us (§ 1), from the Steam account or e-mail address concerned if possible, so we can find them.</li>
 <li><strong>Steam data:</strong> managed by Valve, from your Steam account.</li>
